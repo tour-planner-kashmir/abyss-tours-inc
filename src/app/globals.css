@@ -1,0 +1,270 @@
+@import "tailwindcss";
+
+/* ============================================================
+   CUSTOM THEME - Abyss Tours INC Design System
+   ============================================================ */
+@theme inline {
+  /* Brand Colours */
+  --color-kashmir-blue: #0d3b66;
+  --color-kashmir-blue-dark: #092d52;
+  --color-kashmir-blue-light: #1a5a9e;
+  --color-saffron: #38bdf8;
+  --color-saffron-dark: #0EA5E9;
+  --color-emerald-brand: #2a9d8f;
+  --color-snow-white: #ffffff;
+  --color-gold: #d4af37;
+  --color-gold-light: #f0d060;
+
+  /* Neutral shades */
+  --color-charcoal: #1a1a2e;
+  --color-slate-custom: #2d3748;
+  --color-mist: #f0f4f8;
+  --color-mist-dark: #e2e8f0;
+
+  /* Typography */
+  --font-display: var(--font-playfair);
+  --font-sans: var(--font-inter);
+
+  /* Sizes */
+  --radius-card: 1.25rem;
+  --radius-btn: 0.75rem;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #0d1117;
+}
+
+/* ============================================================
+   BASE STYLES
+   ============================================================ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), "Inter", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* ============================================================
+   SCROLLBAR
+   ============================================================ */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #0d3b66;
+  border-radius: 3px;
+}
+
+/* ============================================================
+   TYPOGRAPHY UTILITIES
+   ============================================================ */
+.font-display {
+  font-family: var(--font-playfair), "Playfair Display", Georgia, serif;
+}
+
+.font-body {
+  font-family: var(--font-inter), "Inter", system-ui, sans-serif;
+}
+
+/* ============================================================
+   GLASSMORPHISM
+   ============================================================ */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.glass-dark {
+  background: rgba(13, 59, 102, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ============================================================
+   GRADIENTS
+   ============================================================ */
+.gradient-kashmir {
+  background: linear-gradient(135deg, #0d3b66 0%, #1a5a9e 50%, #2a9d8f 100%);
+}
+
+.gradient-gold {
+  background: linear-gradient(135deg, #0ea5e9 0%, #38bdf8 100%);
+}
+
+.gradient-hero {
+  background: linear-gradient(
+    to bottom,
+    rgba(13, 59, 102, 0.3) 0%,
+    rgba(13, 59, 102, 0.5) 50%,
+    rgba(13, 59, 102, 0.8) 100%
+  );
+}
+
+/* ============================================================
+   ANIMATIONS
+   ============================================================ */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+}
+
+/* ============================================================
+   CUSTOM COMPONENTS
+   ============================================================ */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.875rem 2rem;
+  background: #38bdf8;
+  color: white;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background: #0EA5E9;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(244, 162, 97, 0.4);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.875rem 2rem;
+  background: transparent;
+  color: white;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: white;
+  transform: translateY(-2px);
+}
+
+.section-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #38bdf8;
+}
+
+.card-hover {
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 24px 64px rgba(13, 59, 102, 0.15);
+}
+
+/* ============================================================
+   IMAGE OVERLAY HELPERS
+   ============================================================ */
+.img-overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.img-overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, transparent 60%);
+}
+
+/* ============================================================
+   SECTION SPACING
+   ============================================================ */
+.section-padding {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+}
