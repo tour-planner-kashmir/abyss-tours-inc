@@ -10,7 +10,7 @@ export const destinations = [
     description:
       "Snow-capped peaks, shimmering Dal Lake, and fragrant saffron fields - Kashmir is a world apart.",
     image:
-      "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&q=80",
+      "https://images.unsplash.com/photo-1568889753852-196c487a536e?w=800&q=80",
     highlights: ["Dal Lake", "Gulmarg", "Pahalgam", "Sonmarg"],
     startingFrom: "₹15,999",
     badge: "Most Popular",
@@ -23,7 +23,7 @@ export const destinations = [
     description:
       "Rugged landscapes, ancient monasteries, and the highest motorable roads in the world.",
     image:
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+      "https://images.unsplash.com/photo-1593118845043-359e5f628214?w=800&q=80",
     highlights: ["Pangong Lake", "Nubra Valley", "Leh Palace", "Khardung La"],
     startingFrom: "₹19,999",
     badge: "Adventure",
@@ -36,7 +36,7 @@ export const destinations = [
     description:
       "Charming hill towns, pine forests, and colonial-era architecture await in the Queen of Hills.",
     image:
-      "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800&q=80",
+      "https://images.unsplash.com/photo-1620720970374-5b7e67e1e610?w=800&q=80",
     highlights: ["Shimla", "Manali", "Dharamshala", "Spiti Valley"],
     startingFrom: "₹12,999",
     badge: "Family Favourite",
@@ -101,7 +101,7 @@ export const destinations = [
     description:
       "Sacred ghats, Himalayan treks, yoga ashrams, and the source of India's holiest rivers.",
     image:
-      "https://images.unsplash.com/photo-1567157577867-05ccb1388e66?w=800&q=80",
+      "https://images.unsplash.com/photo-1689676452888-c9ccc1896e96?w=800&q=80",
     highlights: ["Rishikesh", "Haridwar", "Valley of Flowers", "Nainital"],
     startingFrom: "₹23,999",
     badge: "Spiritual",
@@ -129,7 +129,7 @@ export const kashmirPackages = [
     subtitle: "Romance above the clouds",
     duration: "6 Nights / 7 Days",
     image:
-      "https://images.unsplash.com/photo-1490723186985-6d7672633c86?w=800&q=80",
+      "https://images.unsplash.com/photo-1491582990992-68ec88e070a3?w=800&q=80",
     places: ["Srinagar", "Gulmarg", "Pahalgam"],
     highlights: [
       "Deluxe Houseboat stay on Dal Lake",
@@ -149,7 +149,7 @@ export const kashmirPackages = [
     subtitle: "Memories for everyone",
     duration: "7 Nights / 8 Days",
     image:
-      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=800&q=80",
+      "https://images.unsplash.com/photo-1572099259127-766d3444c234?w=800&q=80",
     places: ["Srinagar", "Gulmarg", "Pahalgam", "Sonmarg"],
     highlights: [
       "Comfortable hotel stays",
@@ -169,7 +169,7 @@ export const kashmirPackages = [
     subtitle: "Winter wonderland awaits",
     duration: "5 Nights / 6 Days",
     image:
-      "https://images.unsplash.com/photo-1609952048180-7b35ea6b083b?w=800&q=80",
+      "https://images.unsplash.com/photo-1676441019594-07142b925bc2?w=800&q=80",
     places: ["Srinagar", "Gulmarg"],
     highlights: [
       "Skiing lessons at Gulmarg",
@@ -189,7 +189,7 @@ export const kashmirPackages = [
     subtitle: "Asia's largest tulip garden",
     duration: "4 Nights / 5 Days",
     image:
-      "https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?w=800&q=80",
+      "https://images.unsplash.com/photo-1566837497312-7be7830ae9b1?w=800&q=80",
     places: ["Srinagar"],
     highlights: [
       "Indira Gandhi Tulip Garden",
@@ -209,7 +209,7 @@ export const kashmirPackages = [
     subtitle: "Live on Dal Lake",
     duration: "3 Nights / 4 Days",
     image:
-      "https://images.unsplash.com/photo-1598977123118-4e30ba3c4f5b?w=800&q=80",
+      "https://images.unsplash.com/photo-1685716271205-83a5ac2ba63b?w=800&q=80",
     places: ["Srinagar"],
     highlights: [
       "Heritage cedar wood houseboat",
@@ -229,7 +229,7 @@ export const kashmirPackages = [
     subtitle: "Thrill in the Himalayas",
     duration: "6 Nights / 7 Days",
     image:
-      "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&q=80",
+      "https://images.unsplash.com/photo-1598091383021-15ddea10925d?w=800&q=80",
     places: ["Srinagar", "Sonmarg", "Pahalgam", "Gulmarg"],
     highlights: [
       "Kolahoi Glacier trek",

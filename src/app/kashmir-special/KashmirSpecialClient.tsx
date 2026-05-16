@@ -10,25 +10,25 @@ const kashmirHighlights = [
   {
     name: "Dal Lake",
     image:
-      "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=600&q=80",
+      "https://images.unsplash.com/photo-1564329494258-3f72215ba175?w=600&q=80",
     desc: "Iconic shimmering lake with floating gardens and houseboats",
   },
   {
     name: "Gulmarg",
     image:
-      "https://images.unsplash.com/photo-1609952048180-7b35ea6b083b?w=600&q=80",
+      "https://images.unsplash.com/photo-1680701529091-de2a12a7e4b3?w=600&q=80",
     desc: "Asia's highest gondola - paradise for skiing & snow activities",
   },
   {
     name: "Pahalgam",
     image:
-      "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=600&q=80",
+      "https://images.unsplash.com/photo-1641593758596-39b200b51e8d?w=600&q=80",
     desc: "Valley of shepherds - rivers, meadows and the Himalayan charm",
   },
   {
     name: "Sonmarg",
     image:
-      "https://images.unsplash.com/photo-1567157577867-05ccb1388e66?w=600&q=80",
+      "https://images.unsplash.com/photo-1701957494296-a42832ab0a17?w=600&q=80",
     desc: "Meadow of gold - pristine glaciers and breathtaking alpine terrain",
   },
 ];

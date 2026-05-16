@@ -70,7 +70,7 @@ export function WhyChooseUs() {
           <div className="relative order-2 lg:order-1">
             <div className="relative rounded-3xl overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1598977123118-4e30ba3c4f5b?w=800&q=80"
+                src="https://images.unsplash.com/photo-1473442240418-452f03b7ae40"
                 alt="Kashmir houseboat"
                 className="w-full h-[520px] object-cover rounded-3xl"
               />

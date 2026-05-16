@@ -48,7 +48,7 @@ export function AboutClient() {
       <section className="relative pt-32 pb-20 bg-gradient-to-br from-[#0D3B66] to-[#0a2240] overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1598977123118-4e30ba3c4f5b?w=1920&q=80"
+            src="https://images.unsplash.com/photo-1620121692029-d088224ddc74?w=1920&q=80"
             alt="Kashmir"
             className="w-full h-full object-cover opacity-15"
           />
