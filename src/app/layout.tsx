@@ -56,6 +56,14 @@ export const metadata: Metadata = {
     creator: "@abysstoursinc",
     images: ["/og-image.jpg"],
   },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/logo.png", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: "/logo.png",
+  },
   robots: {
     index: true,
     follow: true,
