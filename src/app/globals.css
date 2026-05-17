@@ -9,7 +9,7 @@
   --color-kashmir-blue-dark: #092d52;
   --color-kashmir-blue-light: #1a5a9e;
   --color-saffron: #38bdf8;
-  --color-saffron-dark: #0EA5E9;
+  --color-saffron-dark: #0ea5e9;
   --color-emerald-brand: #2a9d8f;
   --color-snow-white: #ffffff;
   --color-gold: #d4af37;
@@ -193,7 +193,7 @@ body {
 }
 
 .btn-primary:hover {
-  background: #0EA5E9;
+  background: #0ea5e9;
   transform: translateY(-2px);
   box-shadow: 0 10px 30px rgba(244, 162, 97, 0.4);
 }

@@ -57,9 +57,11 @@ export function Footer() {
             <div className="flex-1 w-full bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 md:p-8 shadow-2xl">
               {/* Card header */}
               <div className="flex items-center gap-4 mb-5">
-                <div className="w-12 h-12 bg-[#38BDF8] rounded-xl flex items-center justify-center font-display font-bold text-2xl text-white shrink-0">
-                  A
-                </div>
+                <img
+                  src="/logo.png"
+                  alt="Abyss Tours INC"
+                  className="w-12 h-12 object-contain rounded-xl shrink-0"
+                />
                 <div>
                   <div className="font-display font-bold text-xl text-white leading-tight">
                     Abyss Tours INC
@@ -198,9 +200,11 @@ export function Footer() {
           {/* Brand column */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-3 mb-5">
-              <div className="w-10 h-10 bg-[#38BDF8] rounded-xl flex items-center justify-center font-display font-bold text-xl text-white">
-                A
-              </div>
+              <img
+                src="/logo.png"
+                alt="Abyss Tours INC"
+                className="w-10 h-10 object-contain rounded-xl shrink-0"
+              />
               <div>
                 <div className="font-display font-bold text-lg text-white leading-tight">
                   Abyss Tours

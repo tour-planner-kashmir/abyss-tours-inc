@@ -89,17 +89,11 @@ function TopBar() {
     <div className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-gray-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
         <a href="/" className="flex items-center gap-2.5">
-          <div className="w-8 h-8 rounded-lg bg-[#0D3B66] flex items-center justify-center font-bold text-white text-sm font-display">
-            A
-          </div>
-          <div>
-            <div className="font-display font-bold text-[#0D3B66] text-base leading-tight">
-              Abyss Tours
-            </div>
-            <div className="text-[10px] font-semibold tracking-widest uppercase text-[#38BDF8]">
-              INC
-            </div>
-          </div>
+          <img
+            src="/logo.png"
+            alt="Abyss Tours INC"
+            className="h-8 w-auto object-contain"
+          />
         </a>
         <a
           href={`tel:${siteConfig.phone}`}
